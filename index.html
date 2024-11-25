@@ -1,1 +1,70 @@
-yes, we are under construction. Come back later!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMOKLES.</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .background {
+            position: absolute;
+            filter: blur(10px);
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            left: 0;
+            top: 0;
+        }
+
+        div {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        div > img {
+            height: 512px;
+            width: 512px;
+        }
+
+        div > h1,
+        div > h2,
+        div > p {
+            text-shadow: 1px 1px 2px black, 0 0 1em grey, 0 0 0.2em white;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="background" src="logo.jpg">
+    <div>
+        <h1>SMOKLES</h1>
+        <img src="logo.jpg">
+        <h2>Classic. Cool. Just Smokles. Hodl tight.</h2>
+        <p>5d6tq5EPJQPw5hDN7vUKx8c7TpDMiRmydFR8k8Zkpump</p>
+    </div>
+</body>
+
+</html>
